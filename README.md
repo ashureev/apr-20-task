@@ -6,7 +6,7 @@
 
 ---
 
-#### RTO  &  RPO {#rto--rpo}
+#### RTO  &  RPO
 
 RTO stands for Recovery Time Objective, it means after a disaster in a database how long it will take to recover and restore availability of the database/application.
 
@@ -30,7 +30,7 @@ Both RPO & RTO are measured in TIME (hours, minutes, seconds). Lower numbers ind
 
 
 
-### NoSQL vs SQL {#nosql-vs-sql} 
+### NoSQL vs SQL 
 
 
 
@@ -49,13 +49,13 @@ Both RPO & RTO are measured in TIME (hours, minutes, seconds). Lower numbers ind
 
 
 
-### SLO, SLA & SLI {#slo-sla--sli}
+### SLO, SLA & SLI
 
 1. **SLI (Service Level Indicator)** - the actual metric being measured, e.g., uptime, latency, error rate.
 2. **SLO (Service Level Objective)** - the target/goal set for that metric, e.g., 99.9% uptime.
 3. **SLA (Service Level Agreement)** - the formal contract between provider & customer, defines consequences if SLO is not met.
 
-#### Interesting things from Google SRE Book {#interesting-things-from-google-sre-book}
+#### Interesting things from Google SRE Book
 
 - **Most people say "SLA" but mean "SLO"** — if someone says "SLA violation," they almost always mean a missed SLO. A real SLA violation could trigger a court case.
 
