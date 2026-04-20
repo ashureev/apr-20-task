@@ -6,7 +6,7 @@ RTO stands for Recovery Time Objective, it means after a disaster in a database 
 
 RPO stands for Recovery Point Objective, it means how much data loss is acceptable for the application.
 
-#### ![](ClouldOps_913_1.png)
+#### ![](ClouldOps_913_1.jpg)
 
 
 
